@@ -13,7 +13,7 @@ public class synchroniz {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\USER\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
+				"C:\\Users\\USER\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		// driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get("https://alaskatrips.poweredbygps.com/g/pt/hotels?MDPCID=ALASKA-US.TPS.BRAND.hotels.HOTEL");
